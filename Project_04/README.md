@@ -6,7 +6,7 @@ Submitted by: **Abhishek Yadav**
 
 About this web app: **App description here**
 
-Time spent: **X** hours
+Time spent: **6** hours
 
 ## Required Features
 
