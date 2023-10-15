@@ -1,0 +1,44 @@
+.car__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.summary__box {
+  background-color: #f2f2f2; /* New background color */
+  border: 1px solid #ccc; /* New border color */
+  border-radius: 15px; /* Increased border radius */
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Adjusted box shadow */
+  text-align: center;
+}
+
+.summary__box h2 {
+  font-size: 26px; /* Increased font size */
+  color: #333;
+}
+
+.summary__box p {
+  font-size: 18px; /* Increased font size */
+  color: #666; /* New text color */
+}
+
+.summary__box input {
+  width: 100%;
+  padding: 12px; /* Increased padding */
+  margin: 10px 0;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 16px; /* Increased font size */
+  color: #333; /* New text color */
+  background-color: #f5f5f5; /* New input background color */
+}
+
+.search-container {
+  width: 220px; /* Adjusted width */
+}

@@ -1,0 +1,43 @@
+.car {
+  padding: 15px; /* Increased padding */
+  margin: 10px;
+  background-color: #303030; /* New background color */
+  width: 1000px; /* Adjusted width */
+  height: 300px; /* Adjusted height */
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Increased shadow depth */
+  border: 2px solid #555; /* Adjusted border color */
+  transform-origin: center;
+}
+
+.car:hover {
+  transform: scale(1.05); /* Slightly scale on hover */
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4); /* Increased shadow depth on hover */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.car__container {
+  flex: 1;
+  background-color: #242424; /* New background color */
+  padding: 20px; /* Increased padding */
+}
+
+.car p {
+  margin: 0;
+  padding: 10px 0; /* Increased vertical padding */
+  color: #ccc; /* New text color */
+}
+
+.car strong {
+  font-weight: bold;
+}
+
+.car__info {
+  flex: 1;
+  background-color: #292929; /* New background color */
+  display: flex;
+  justify-content: space-between;
+  padding: 20px; /* Increased padding */
+}
