@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+}
+.app {
+    background: url('./assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-bottom: 50px;
+}
+
+.option__box {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    padding: 10px;
+    
+    
+  }
+
+  .big__box{
+    background-color: #f0f0f034;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+
+  }
+  
+
+
+.option__box img {
+    width: 100px; /* Fixed width for each image */
+    height: 100px; /* Fixed height for each image */
+    cursor: pointer;
+    border: 1px solid #ccc; /* Border around each image */
+    border-radius: 10px; /* Rounded corners for images */
+    transition: transform 0.2s; /* Smooth image scaling on hover */
+}
+
+.option__box > img:hover {
+    transform: scale(1.1); /* Scale up the image on hover */
+}
+
+.button__box {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    
+}
+
+
+
+.bottom__box{
+    margin-top: 100px;
+    display: flex;
+    justify-content:flex-start;
+    gap: 10%;
+    padding-left: 2%;
+    height: 400px;
+}
+
+
+/* Add these styles to your CSS file */
+.summary__box {
+    background-color: #e9cecec4;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .summary__box h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .summary__box p {
+    font-size: 16px;
+    color: #531414;
+  }
+  
+  .summary__box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    background-color: #333;
+  }
+  
+  /* Add more styles as needed */
+  

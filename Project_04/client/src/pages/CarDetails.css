@@ -1,0 +1,48 @@
+/* Updated styles with new fonts, colors, and layout */
+
+#car-content {
+  padding-top: 10%;
+}
+
+.car-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.car-details {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.car-details h2 {
+  font-size: 28px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.car-details p {
+  font-size: 20px;
+  font-family: 'Helvetica', sans-serif;
+  color: #666;
+  margin: 15px 0;
+}
+
+.buttons__container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Add more styles as needed */
